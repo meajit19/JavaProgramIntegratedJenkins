@@ -1,4 +1,4 @@
-package com.beginnersbook;
+//package com.beginnersbook;
 import java.util.Scanner;
 public class PascalTriangle {
     static int fact(int num) {
@@ -16,11 +16,11 @@ public class PascalTriangle {
 	int rows, i, j;
 
 	//getting number of rows from user
-	System.out.println("Enter number of rows:");
-	Scanner scanner = new Scanner(System.in);
-	rows = scanner.nextInt();
-	scanner.close();
-
+	//System.out.println("Enter number of rows:");
+	//Scanner scanner = new Scanner(System.in);
+	//rows = scanner.nextInt();
+	//scanner.close();
+    rows=5;
 	System.out.println("Pascal Triangle:");
 	for(i = 0; i < rows; i++) {
 		for(j = 0; j < rows-i; j++){
