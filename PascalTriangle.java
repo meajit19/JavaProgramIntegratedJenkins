@@ -20,6 +20,7 @@ public class PascalTriangle {
 	//Scanner scanner = new Scanner(System.in);
 	//rows = scanner.nextInt();
 	//scanner.close();
+	
     rows=5;
 	System.out.println("Pascal Triangle:");
 	for(i = 0; i < rows; i++) {
