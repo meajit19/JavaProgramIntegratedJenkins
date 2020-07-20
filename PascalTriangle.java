@@ -21,7 +21,7 @@ public class PascalTriangle {
 	//rows = scanner.nextInt();
 	//scanner.close();
 	
-    rows=5;
+    rows=6;
 	System.out.println("Pascal Triangle:");
 	for(i = 0; i < rows; i++) {
 		for(j = 0; j < rows-i; j++){
